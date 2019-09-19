@@ -21,3 +21,19 @@ end
 def shift_with_args(arr,num_item)
   return arr.shift(num_item)
 end
+
+def using_concat(arr1,arr2)
+  return arr1.concat(arr2)
+end
+
+def using_insert(arr,item)
+  return arr.insert(item,3)
+end
+
+def using_uniq(arr)
+  return arr.uniq
+end
+
+def flatten(arr)
+  return arr.flatten
+end
