@@ -27,14 +27,14 @@ def using_concat(arr1,arr2)
 end
 
 def using_insert(arr,item)
-  return arr.insert(2,item)
+  return arr.insert(4,item)
 end
 
 def using_uniq(arr)
   return arr.uniq
 end
 
-def flatten(arr)
+def using_flatten(arr)
   return arr.flatten
 end
 
