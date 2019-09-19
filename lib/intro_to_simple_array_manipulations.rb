@@ -27,7 +27,7 @@ def using_concat(arr1,arr2)
 end
 
 def using_insert(arr,item)
-  return arr.insert(3,item)
+  return arr.insert(2,item)
 end
 
 def using_uniq(arr)
@@ -39,9 +39,9 @@ def flatten(arr)
 end
 
 def using_delete(arr,str_item)
-  return arr.delete if arr.include?(str_item)
+  return arr.delete(str_item)
 end
 
 def using_delete_at(arr,num)
-  return arr.delete_at(num) if arr[num] == num
+  return arr.delete_at(num)
 end
