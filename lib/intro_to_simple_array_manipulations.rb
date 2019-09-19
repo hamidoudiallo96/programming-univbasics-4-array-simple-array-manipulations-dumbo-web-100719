@@ -10,4 +10,14 @@ def using_pop(arr)
   return arr.pop
 end
 
-def pop_with_args(arr)
+def pop_with_args(arr,num_item)
+  return arr.pop(num_item)
+end
+
+def using_shift(arr)
+  return arr.shift
+end
+
+def shift_with_args(arr,num_item)
+  return arr.shift(num_item)
+end
